@@ -2,6 +2,10 @@
 
 ### JavaScript
 
-Browser APIs
+Language APIs
 
-[AbortController](javascript/abort-controller.md)
+- [AbortController](javascript/abort-controller.md)
+- [Array](javascript/array.md)
+- [BroadcastChannel](javascript/broadcast-channel.md)
+- [Object](javascript/object.md)
+- [Promise](javascript/promise.md)

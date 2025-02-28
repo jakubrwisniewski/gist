@@ -53,9 +53,6 @@ source.splice(-2, 1); // ["d"]
 ### toReversed
 Reverse array without modifying original array
 
-> [!CAUTION]
-> As of 19.06.2023 not supported by Firefox.
-
 ```js
 const source = [4, 2, 3, 1];
 const reversed = source.toReversed()
@@ -63,8 +60,6 @@ const reversed = source.toReversed()
 console.log(source); // [4, 2, 3, 1];
 console.log(reversed); // [1, 3, 2, 4]
 ```
-
-[caniuse.com](https://caniuse.com/mdn-javascript_builtins_array_toreversed)
 
 ***
 
@@ -84,11 +79,6 @@ console.log(sorted); // [1, 2, 3, 4]
 ### toSpliced
 Splice item from array without modifying original array
 
-[caniuse.com](https://caniuse.com/mdn-javascript_builtins_array_tospliced)
-
-> [!CAUTION]
-> As of 19.06.2023 not supported by Firefox.
-
 ```js
 const source = [4, 2, 3, 1];
 const spliced = source.toSpliced(0, 2, "Added");
@@ -102,9 +92,6 @@ console.log(spliced); // ['Added', 3, 1]
 
 ### with
 
-> [!CAUTION]
-> As of 19.06.2023 not supported by Firefox.
-
 ```js
 const source = [1, 2, 3, 4];
 const result = source.with(2, 10);
@@ -112,8 +99,6 @@ const result = source.with(2, 10);
 console.log(source); // [1, 2, 3, 5]
 console.log(result); // [1, 2, 10, 4]
 ```
-
-[caniuse.com](https://caniuse.com/mdn-javascript_builtins_array_with)
 
 ***
 
