@@ -1,5 +1,3 @@
-[back](../README.md)
-
 # Abort Controller
 
 [caniuse.com](https://caniuse.com/abortcontroller)
