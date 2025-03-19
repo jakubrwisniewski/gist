@@ -8,7 +8,7 @@ import express from "express";
 const app = express();
 
 app.get("/endpoint", (req, res) => {
-	res.json({ key: "value" });
+  res.json({ key: "value" });
 });
 
 ```
@@ -22,12 +22,12 @@ import app from "./app";
 
 describe("app", () => {
 
-	it("should GET /endpoint", async () => {
-		const response = await request(app).get("/endpoint");
+  it("should GET /endpoint", async () => {
+    const response = await request(app).get("/endpoint");
 
-		expect(response.status).toBe(200);
-		expect(response.body).toEqual({ key: "value" });
-	});
+    expect(response.status).toBe(200);
+    expect(response.body).toEqual({ key: "value" });
+  });
 
 });
 
