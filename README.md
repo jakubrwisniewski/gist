@@ -2,7 +2,7 @@
 
 ### Code quality
 
-- [Depracated methods]()
+- [Depracated methods](code-quality/depracated-methods.md)
 
 ### JavaScript
 

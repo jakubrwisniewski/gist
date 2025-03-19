@@ -13,4 +13,4 @@ function process() {
 
 Then when someone tries to use this method, it will be strikethrough in autocomplete popup. See VsCode example below.
 
-![example how depracated methods work in vscode](image.png)
+![example how depracated methods work in vscode](depracated-methods-vscode.png)
