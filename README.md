@@ -1,5 +1,9 @@
 # Code Snippets and web development knowledge
 
+### Code quality
+
+- [Depracated methods]()
+
 ### JavaScript
 
 Language APIs
