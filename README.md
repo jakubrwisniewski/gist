@@ -21,6 +21,11 @@ Language APIs
 ## CSS
 
 - [Animate height](css/animate-height.md)
+- [Change selection color](css/change-text-selection-color.md)
+- [Disable link](css/disable-link.md)
+- [Disable text selection](css/disable-text-selection.md)
+- [Dynamically display input size](css/dynamically-display-input-size.md)
+- [Fit element to it’s content](css/fit-element-to-content.md)
 - [Media Queries](css/media-queries.md)
 - [Multiline text without \<br\>](css/multiline-text-without-br.md)
 - [Overflow](css/overflow.md)
