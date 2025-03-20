@@ -1,3 +1,4 @@
+```ts
 const pluralRules = new Intl.PluralRules("pl");
 
 interface Rules {
@@ -27,3 +28,4 @@ class PluralRules {
 }
 
 export default PluralRules;
+```

@@ -40,6 +40,6 @@ Language APIs
 
 ### Utilities
 
-- [isLeapYear](utilities/isLeapYear.ts)
-- [isObjectEmpty](utilities/isObjectEmpty.ts)
-- [Plural Rules](utilities/PluralRules.ts)
+- [isLeapYear](utilities/isLeapYear.md)
+- [isObjectEmpty](utilities/isObjectEmpty.md)
+- [Plural Rules](utilities/PluralRules.md)
