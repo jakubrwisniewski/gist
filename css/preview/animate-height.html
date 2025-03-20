@@ -1,0 +1,54 @@
+<style>
+  .box {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  .box p {
+    height: 0;
+    transition: height 0.5s ease;
+    overflow: hidden;
+  }
+  .box .calc-size.show {
+    height: auto;
+    height: calc-size(auto, size);
+  }
+  .box .interpolate {
+    interpolate-size: allow-keywords;
+  }
+  .box .interpolate.show {
+    interpolate-size: allow-keywords;
+  	height:auto;
+  }
+</style>
+
+<body>
+  <button>toggle</button>
+
+  <div class="box">
+    <h1>Calc size</h1>
+    <p class="calc-size">
+      Content of this card should animate height. But as for 17th July 2024 it's
+      not widely supported by the browsers.
+      <br />Anyway <code>height: auto;</code> fallback is working correctly,
+      just not animate the height.
+    </p>
+  </div>
+  <div class="box">
+    <h1>Interpolate size</h1>
+    <p class="interpolate">
+      Content of this card should animate height. But as for 17th July 2024 it's
+      not widely supported by the browsers.
+      <br />Anyway <code>height: auto;</code> fallback is working correctly,
+      just not animate the height.
+    </p>
+  </div>
+</body>
+
+<script type="text/javascript">
+  document.querySelector("button").addEventListener("click", () => {
+    document.querySelector(".box .calc-size").classList.toggle("show");
+    document.querySelector(".box .interpolate").classList.toggle("show");
+  });
+</script>

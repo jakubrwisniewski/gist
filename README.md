@@ -20,6 +20,8 @@ Language APIs
 
 ## CSS
 
+- [Animate height](css/animate-height.md)
+- [Media Queries](css/media-queries.md)
 - [Multiline text without \<br\>](css/multiline-text-without-br.md)
 - [Overflow](css/overflow.md)
 
