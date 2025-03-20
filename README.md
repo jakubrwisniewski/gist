@@ -19,6 +19,11 @@ Language APIs
 - [URLSearchParams](javascript/url-search-params.md)
 
 
+## HTML
+
+- [Autofocus input field](html/autofocus.md)
+- [Lazy loading images](html/img-lazy-loading.md)
+
 ### Testing
 
 - [Express](testing/express.md)
