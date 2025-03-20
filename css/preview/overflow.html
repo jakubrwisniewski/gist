@@ -1,0 +1,107 @@
+<head>
+  <style type="text/css">
+	html,
+    body {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    main {
+      padding: 30px;
+      display: flex;
+      gap: 30px;
+    }
+
+    div > div {
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      width: 100px;
+      height: 100px;
+      border: 1px solid orange;
+    }
+
+    .overflow-clip {
+      overflow: clip;
+    }
+
+    .overflow-clip-margin {
+      overflow: clip;
+      overflow-clip-margin: 20px;
+    }
+
+    .overflow-clip-margin-border-box {
+      overflow: clip;
+      overflow-clip-margin: border-box;
+      border-bottom: 20px solid orange;
+    }
+
+    .overflow-clip-margin-padding-box {
+      overflow: clip;
+      overflow-clip-margin: padding-box;
+      padding: 20px;
+    }
+
+    .overflow-clip-margin-content-box {
+    	overflow: clip;
+    	overflow-clip-margin: content-box;
+    	padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <div>default</div>
+      <section>
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+    <div>
+      <div>overflow clip</div>
+      <section class="overflow-clip">
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+    <div>
+      <div>overflow clip margin 20px</div>
+      <section class="overflow-clip-margin">
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+    <div>
+      <div>overflow clip margin border box</div>
+      <section class="overflow-clip-margin-border-box">
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+    <div>
+      <div>overflow clip margin padding box</div>
+      <section class="overflow-clip-margin-padding-box">
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+    <div>
+      <div>overflow clip margin content box</div>
+      <section class="overflow-clip-margin-content-box">
+        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+        sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem
+        ipsum dolor sit amet
+      </section>
+    </div>
+  </main>
+</body>
