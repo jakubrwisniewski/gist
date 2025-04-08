@@ -15,7 +15,7 @@ const validationSchema = Yup.object({
 
 ***
 
-### Validating two fields to be the same🟠
+### Validating two fields to be the same
 
 ```js
 const validationSchema = Yup.object({
