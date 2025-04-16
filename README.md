@@ -35,6 +35,7 @@ Language APIs
 ## HTML
 
 - [Autofocus input field](html/autofocus.md)
+- [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
 - [Lazy loading images](html/img-lazy-loading.md)
 
 ### Testing
