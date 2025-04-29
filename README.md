@@ -38,18 +38,32 @@ Language APIs
 - [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
 - [Lazy loading images](html/img-lazy-loading.md)
 
-### Testing
+## Testing
 
+- [Collect coverage for single file](testing/collect-coverage.md)
+- [Expect anything](testing/expect-anything.md)
+- [Expect one property from object](testing/expect-one-property-from-object.md)
 - [Express](testing/express.md)
+- [Mock classses](testing/mock-classes.md)
+- [Mock mixed imports](testing/mock-mixed-imports.md)
+- [Mock static properties](testing/mock-static-properties.md)
+- [React testing library](testing/react-testing-library-tips.md)
+- [React testing library Submit Form](testing/react-testing-library-submit-form.md)
 
-
-### Validation
+## Validation
 
 - [yup](validation/yup.md)
 
 
-### Utilities
+## Utilities
 
 - [isLeapYear](utilities/isLeapYear.md)
 - [isObjectEmpty](utilities/isObjectEmpty.md)
 - [Plural Rules](utilities/PluralRules.md)
+
+
+## GIT
+
+- [Hide file from unstaged changes](git/hide-from-unstaged.md)
+- [Stash](git/stash.md)
+- [Tips](git/tips.md)
