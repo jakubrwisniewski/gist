@@ -18,7 +18,23 @@ Language APIs
 - [String](javascript/string.md)
 - [URLSearchParams](javascript/url-search-params.md)
 
-## CSS
+### Typescript
+
+- [Utility types](typescript/utility-types.md)
+
+### React
+
+Custom hooks
+
+- [useDebounce](react/use-debounce.md)
+- [useMediaQuery](react/use-media-query.md)
+
+API
+
+- [ComponentPropss](react/component-propss.md)
+
+
+### CSS
 
 - [Animate height](css/animate-height.md)
 - [Change selection color](css/change-text-selection-color.md)
@@ -32,13 +48,13 @@ Language APIs
 - [Overflow](css/overflow.md)
 - [Underline offset](css/underline-offset.md)
 
-## HTML
+### HTML
 
 - [Autofocus input field](html/autofocus.md)
 - [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
 - [Lazy loading images](html/img-lazy-loading.md)
 
-## Testing
+### Testing
 
 - [Collect coverage for single file](testing/collect-coverage.md)
 - [Expect anything](testing/expect-anything.md)
@@ -50,19 +66,20 @@ Language APIs
 - [React testing library](testing/react-testing-library-tips.md)
 - [React testing library Submit Form](testing/react-testing-library-submit-form.md)
 
-## Validation
+### Validation
 
+- [Date validation](validation/date-validation.md)
+- [Url validation](validation/url-validation.md)
 - [yup](validation/yup.md)
 
-
-## Utilities
+### Utilities
 
 - [isLeapYear](utilities/isLeapYear.md)
 - [isObjectEmpty](utilities/isObjectEmpty.md)
 - [Plural Rules](utilities/PluralRules.md)
 
 
-## GIT
+### GIT
 
 - [Hide file from unstaged changes](git/hide-from-unstaged.md)
 - [Stash](git/stash.md)
