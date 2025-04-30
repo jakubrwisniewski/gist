@@ -1,16 +1,17 @@
 # Code Snippets and web development knowledge
 
-### Code quality
+## Code quality
 
 - [Depracated methods](code-quality/depracated-methods.md)
 
-### JavaScript
+## JavaScript
 
-Language APIs
+#### Language APIs
 
 - [AbortController](javascript/abort-controller.md)
 - [Array](javascript/array.md)
 - [BroadcastChannel](javascript/broadcast-channel.md)
+- [Cookie Store](javascript/cookie-store.md)
 - [Intl.PluralRules](javascript/intl-plural-rules.md)
 - [Object](javascript/object.md)
 - [Promise](javascript/promise.md)
@@ -18,23 +19,23 @@ Language APIs
 - [String](javascript/string.md)
 - [URLSearchParams](javascript/url-search-params.md)
 
-### Typescript
+## Typescript
 
 - [Utility types](typescript/utility-types.md)
 
-### React
+## React
 
-Custom hooks
+#### Custom hooks
 
 - [useDebounce](react/use-debounce.md)
 - [useMediaQuery](react/use-media-query.md)
 
-API
+#### API
 
 - [ComponentPropss](react/component-propss.md)
 
 
-### CSS
+## CSS
 
 - [Animate height](css/animate-height.md)
 - [Change selection color](css/change-text-selection-color.md)
@@ -48,13 +49,13 @@ API
 - [Overflow](css/overflow.md)
 - [Underline offset](css/underline-offset.md)
 
-### HTML
+## HTML
 
 - [Autofocus input field](html/autofocus.md)
 - [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
 - [Lazy loading images](html/img-lazy-loading.md)
 
-### Testing
+## Testing
 
 - [Collect coverage for single file](testing/collect-coverage.md)
 - [Expect anything](testing/expect-anything.md)
@@ -66,20 +67,20 @@ API
 - [React testing library](testing/react-testing-library-tips.md)
 - [React testing library Submit Form](testing/react-testing-library-submit-form.md)
 
-### Validation
+## Validation
 
 - [Date validation](validation/date-validation.md)
 - [Url validation](validation/url-validation.md)
 - [yup](validation/yup.md)
 
-### Utilities
+## Utilities
 
 - [isLeapYear](utilities/isLeapYear.md)
 - [isObjectEmpty](utilities/isObjectEmpty.md)
 - [Plural Rules](utilities/PluralRules.md)
 
 
-### GIT
+## GIT
 
 - [Hide file from unstaged changes](git/hide-from-unstaged.md)
 - [Stash](git/stash.md)
