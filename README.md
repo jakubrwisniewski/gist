@@ -17,6 +17,7 @@
 - [Promise](javascript/promise.md)
 - [Set](javascript/set.md)
 - [String](javascript/string.md)
+- [URLPattern](javascript/url-pattern.md)
 - [URLSearchParams](javascript/url-search-params.md)
 
 ## Typescript
