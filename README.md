@@ -20,6 +20,12 @@
 - [URLPattern](javascript/url-pattern.md)
 - [URLSearchParams](javascript/url-search-params.md)
 
+#### Snippets
+
+- [Check if number is even or odd](javascript/even-odd.md)
+- [Check if object is empty](javascript/check-object-empty.md)
+- [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
+
 ## Typescript
 
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
@@ -35,7 +41,7 @@
 
 #### API
 
-- [ComponentPropss](react/component-propss.md)
+- [ComponentProps](react/component-propss.md)
 
 
 ## CSS
