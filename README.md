@@ -16,6 +16,7 @@
 - [Object](javascript/object.md)
 - [Promise](javascript/promise.md)
 - [Set](javascript/set.md)
+- [Spread Operator](javascript/spread-operator.md)
 - [String](javascript/string.md)
 - [URLPattern](javascript/url-pattern.md)
 - [URLSearchParams](javascript/url-search-params.md)
@@ -25,6 +26,7 @@
 - [Check if number is even or odd](javascript/even-odd.md)
 - [Check if object is empty](javascript/check-object-empty.md)
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
+- [Create custom error](javascript/custom-errors.md)
 
 ## Typescript
 
