@@ -32,6 +32,7 @@
 
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
 - [Template Literal Types](typescript/template-literal-types.md)
+- [Type Guards](typescript/type-guards.md)
 - [Utility types](typescript/utility-types.md)
 
 ## React
