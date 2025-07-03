@@ -30,6 +30,9 @@
 
 ## Typescript
 
+- [Declare types for globals](typescript/declare-types-for-globals.md)
+- [Find type for element ref](typescript/find-type-element-ref.md)
+- [Function Type Guards](typescript/function-type-guards.md)
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
 - [Template Literal Types](typescript/template-literal-types.md)
 - [Type Guards](typescript/type-guards.md)
@@ -45,6 +48,8 @@
 #### API
 
 - [ComponentProps](react/component-propss.md)
+- [Typing props with children](react/typing-props-with-children.md)
+- [Typing refs](react/typing-refs.md)
 
 
 ## CSS
