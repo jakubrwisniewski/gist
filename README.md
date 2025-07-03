@@ -4,6 +4,38 @@
 
 - [Depracated methods](code-quality/depracated-methods.md)
 
+## CSS
+
+- [Animate height](css/animate-height.md)
+- [Change selection color](css/change-text-selection-color.md)
+- [Disable link](css/disable-link.md)
+- [Disable text selection](css/disable-text-selection.md)
+- [Dynamically display input size](css/dynamically-display-input-size.md)
+- [Fit element to it’s content](css/fit-element-to-content.md)
+- [Flex shorthand property](css/flex-shorthand.md)
+- [Media Queries](css/media-queries.md)
+- [Multiline text without \<br\>](css/multiline-text-without-br.md)
+- [Overflow](css/overflow.md)
+- [Underline offset](css/underline-offset.md)
+
+## Debugging
+
+- [Attribute modification DOM breakpoints](debugging/attribute-modification.md)
+
+
+## GIT
+
+- [Hide file from unstaged changes](git/hide-from-unstaged.md)
+- [Stash](git/stash.md)
+- [Tips](git/tips.md)
+
+
+## HTML
+
+- [Autofocus input field](html/autofocus.md)
+- [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
+- [Lazy loading images](html/img-lazy-loading.md)
+
 ## JavaScript
 
 #### Language APIs
@@ -28,16 +60,6 @@
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
 
-## Typescript
-
-- [Declare types for globals](typescript/declare-types-for-globals.md)
-- [Find type for element ref](typescript/find-type-element-ref.md)
-- [Function Type Guards](typescript/function-type-guards.md)
-- [Loose Autocomplete](typescript/loose-autocomplete.md)
-- [Template Literal Types](typescript/template-literal-types.md)
-- [Type Guards](typescript/type-guards.md)
-- [Utility types](typescript/utility-types.md)
-
 ## React
 
 #### Custom hooks
@@ -52,26 +74,6 @@
 - [Typing refs](react/typing-refs.md)
 
 
-## CSS
-
-- [Animate height](css/animate-height.md)
-- [Change selection color](css/change-text-selection-color.md)
-- [Disable link](css/disable-link.md)
-- [Disable text selection](css/disable-text-selection.md)
-- [Dynamically display input size](css/dynamically-display-input-size.md)
-- [Fit element to it’s content](css/fit-element-to-content.md)
-- [Flex shorthand property](css/flex-shorthand.md)
-- [Media Queries](css/media-queries.md)
-- [Multiline text without \<br\>](css/multiline-text-without-br.md)
-- [Overflow](css/overflow.md)
-- [Underline offset](css/underline-offset.md)
-
-## HTML
-
-- [Autofocus input field](html/autofocus.md)
-- [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
-- [Lazy loading images](html/img-lazy-loading.md)
-
 ## Testing
 
 - [Collect coverage for single file](testing/collect-coverage.md)
@@ -84,11 +86,18 @@
 - [React testing library](testing/react-testing-library-tips.md)
 - [React testing library Submit Form](testing/react-testing-library-submit-form.md)
 
-## Validation
 
-- [Date validation](validation/date-validation.md)
-- [Url validation](validation/url-validation.md)
-- [yup](validation/yup.md)
+## Typescript
+
+- [Declare types for globals](typescript/declare-types-for-globals.md)
+- [Find type for element ref](typescript/find-type-element-ref.md)
+- [Function Type Guards](typescript/function-type-guards.md)
+- [Loose Autocomplete](typescript/loose-autocomplete.md)
+- [Template Literal Types](typescript/template-literal-types.md)
+- [Type Guards](typescript/type-guards.md)
+- [Utility types](typescript/utility-types.md)
+
+
 
 ## Utilities
 
@@ -97,8 +106,9 @@
 - [Plural Rules](utilities/PluralRules.md)
 
 
-## GIT
+## Validation
 
-- [Hide file from unstaged changes](git/hide-from-unstaged.md)
-- [Stash](git/stash.md)
-- [Tips](git/tips.md)
+- [Date validation](validation/date-validation.md)
+- [Url validation](validation/url-validation.md)
+- [yup](validation/yup.md)
+
