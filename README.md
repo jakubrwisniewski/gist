@@ -13,7 +13,10 @@
 - [Dynamically display input size](css/dynamically-display-input-size.md)
 - [Fit element to it’s content](css/fit-element-to-content.md)
 - [Flex shorthand property](css/flex-shorthand.md)
+- [HSL relative colors](css/hsl-relative-colors.md)
+- [Margin and padding inline and block properties](css/margin-padding-inline-block.md)
 - [Media Queries](css/media-queries.md)
+- [Min and Max properties](css/min-max-properties.md)
 - [Multiline text without \<br\>](css/multiline-text-without-br.md)
 - [Overflow](css/overflow.md)
 - [Underline offset](css/underline-offset.md)
@@ -59,6 +62,12 @@
 - [Check if object is empty](javascript/check-object-empty.md)
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
+
+## MongoDB
+
+- [Find document with or without property](mongodb/find-document-with-or-without-property.md)
+- [Remove document property](mongodb/remove-document-property.md)
+- [Rename property](mongodb/rename-property.md)
 
 ## React
 

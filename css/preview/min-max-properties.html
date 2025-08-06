@@ -1,0 +1,34 @@
+<style>
+  body,
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    flex-direction: column;
+  }
+
+  section {
+    height: 200px;
+    color: #fff;
+  }
+
+  .min {
+    background: red;
+    width: min(90vw, 1300px);
+  }
+
+  .max {
+    background: green;
+    width: max(800px, 80vw);
+  }
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<body>
+  <section class="min">min</section>
+
+  <section class="max">max</section>
+</body>
