@@ -24,7 +24,7 @@
 ## Debugging
 
 - [Attribute modification DOM breakpoints](debugging/attribute-modification.md)
-
+- [Finding overflow issues](debugging/finding-overflow-issues.md)
 
 ## GIT
 
