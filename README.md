@@ -25,6 +25,8 @@
 
 - [Attribute modification DOM breakpoints](debugging/attribute-modification.md)
 - [Finding overflow issues](debugging/finding-overflow-issues.md)
+- [Inspect disappearing elements](debugging/inspect-disappear-elements.md)
+- [Using logpoints](debugging/logpoints.md)
 
 ## GIT
 
