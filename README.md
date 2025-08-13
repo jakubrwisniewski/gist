@@ -64,6 +64,7 @@
 - [Check if object is empty](javascript/check-object-empty.md)
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
+- [Randomize array](javascript/randomize-array.md)
 
 ## MongoDB
 
@@ -109,9 +110,6 @@
 - [Template Literal Types](typescript/template-literal-types.md)
 - [Type Guards](typescript/type-guards.md)
 - [Utility types](typescript/utility-types.md)
-
-#### Snippets
-
 - [Handle errors better](typescript/handle-errors.md)
 
 
