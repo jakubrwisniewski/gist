@@ -104,10 +104,15 @@
 - [Find type for element ref](typescript/find-type-element-ref.md)
 - [Function Type Guards](typescript/function-type-guards.md)
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
+- [Mapping over properties](typescript/mapping-over-properties.md)
+- [String interpolation types](typescript/string-interpolation-types.md)
 - [Template Literal Types](typescript/template-literal-types.md)
 - [Type Guards](typescript/type-guards.md)
 - [Utility types](typescript/utility-types.md)
 
+#### Snippets
+
+- [Handle errors better](typescript/handle-errors.md)
 
 
 ## Utilities
