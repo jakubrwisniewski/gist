@@ -13,6 +13,7 @@
 - [Dynamically display input size](css/dynamically-display-input-size.md)
 - [Fit element to it’s content](css/fit-element-to-content.md)
 - [Flex shorthand property](css/flex-shorthand.md)
+- [Headng pseudo-selectors](css/heading.md)
 - [HSL relative colors](css/hsl-relative-colors.md)
 - [Margin and padding inline and block properties](css/margin-padding-inline-block.md)
 - [Media Queries](css/media-queries.md)
