@@ -18,7 +18,5 @@
 
 [Preview](preview/heading.html)
 
-> [!CAUTION]
-> As of 17.09.2025 it's not supported by browsers
-> See https://caniuse.com/?search=%3Aheading
+⛔ As of 17.09.2025 it's not supported by browsers. Check [CanIUse](https://caniuse.com/?search=%3Aheading)
 
