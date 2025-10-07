@@ -67,23 +67,29 @@
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
 - [Randomize array](javascript/randomize-array.md)
+- [Native deep copy](javascript/native-deep-copy.md)
 
 ## MongoDB
 
 - [Find document with or without property](mongodb/find-document-with-or-without-property.md)
+- [Projections](mongodb/projections.md)
 - [Remove document property](mongodb/remove-document-property.md)
 - [Rename property](mongodb/rename-property.md)
+- [SQL like query](mongodb/sql-like-query.md)
 
 ## React
 
 #### Custom hooks
 
 - [useDebounce](react/use-debounce.md)
+- [useLocalStorage](react/use-local-storage.md)
 - [useMediaQuery](react/use-media-query.md)
+- [useHasTouch](react/use-has-touch.md)
 
 #### API
 
 - [ComponentProps](react/component-propss.md)
+- [setState methods type](react/set-state-type.md)
 - [Typing props with children](react/typing-props-with-children.md)
 - [Typing refs](react/typing-refs.md)
 
@@ -106,13 +112,16 @@
 - [Declare types for globals](typescript/declare-types-for-globals.md)
 - [Find type for element ref](typescript/find-type-element-ref.md)
 - [Function Type Guards](typescript/function-type-guards.md)
+- [Handle errors better](typescript/handle-errors.md)
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
 - [Mapping over properties](typescript/mapping-over-properties.md)
+- [OneOf](typescript/one-of.md)
+- [Satisfies](typescript/satisfies.md)
 - [String interpolation types](typescript/string-interpolation-types.md)
 - [Template Literal Types](typescript/template-literal-types.md)
 - [Type Guards](typescript/type-guards.md)
 - [Utility types](typescript/utility-types.md)
-- [Handle errors better](typescript/handle-errors.md)
+
 
 
 ## Utilities
