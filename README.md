@@ -66,8 +66,9 @@
 - [Check if object is empty](javascript/check-object-empty.md)
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
-- [Randomize array](javascript/randomize-array.md)
 - [Native deep copy](javascript/native-deep-copy.md)
+- [Randomize array](javascript/randomize-array.md)
+- [Replace values in array by index using splice](javascript/replace-with-splice.md)
 
 ## MongoDB
 
@@ -89,6 +90,8 @@
 #### API
 
 - [ComponentProps](react/component-propss.md)
+- [ComponentType](react/component-type.md)
+- [forwardRef](react/forward-refs.md)
 - [setState methods type](react/set-state-type.md)
 - [Typing props with children](react/typing-props-with-children.md)
 - [Typing refs](react/typing-refs.md)
@@ -115,13 +118,18 @@
 - [Handle errors better](typescript/handle-errors.md)
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
 - [Mapping over properties](typescript/mapping-over-properties.md)
-- [OneOf](typescript/one-of.md)
 - [Satisfies](typescript/satisfies.md)
 - [String interpolation types](typescript/string-interpolation-types.md)
 - [Template Literal Types](typescript/template-literal-types.md)
 - [Type Guards](typescript/type-guards.md)
+- [Using](typescript/using.md)
 - [Utility types](typescript/utility-types.md)
 
+#### Customn types
+
+- [NestedKeys and NestedPaths](typescript/nested-keys.md)
+- [NestValues](typescript/nested-values.md)
+- [OneOf](typescript/one-of.md)
 
 
 ## Utilities
