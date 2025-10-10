@@ -1,0 +1,33 @@
+<style>
+  /* all prev and next elements */
+   li.selected ~ li {
+     color: #d00;
+   }
+   li:has(~ li.selected) {
+     color: #0a0;
+   }
+   /* direct prev and next element */
+   li.selected + li {
+     font-weight: bold;
+   }
+   li:has(+ li.selected) {
+     text-decoration: underline;
+   }
+</style>
+
+<body>
+  <ul>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li class="selected">Selected</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+  </ul>
+</body>

@@ -6,7 +6,15 @@
 
 ## CSS
 
+#### API
+
+- [:focus-within](css/focuse-within.md)
+- [:is pseudoselector](css/is.md)
+
+#### Snippets
+
 - [Animate height](css/animate-height.md)
+- [Animation starting style](css/animation-starting-style.md)
 - [Change selection color](css/change-text-selection-color.md)
 - [Disable link](css/disable-link.md)
 - [Disable text selection](css/disable-text-selection.md)
@@ -20,6 +28,8 @@
 - [Min and Max properties](css/min-max-properties.md)
 - [Multiline text without \<br\>](css/multiline-text-without-br.md)
 - [Overflow](css/overflow.md)
+- [Selecting siblings](css/selectin-siblings.md)
+- [Text wrapping](css/text-wrapping.md)
 - [Underline offset](css/underline-offset.md)
 
 ## Debugging
@@ -29,6 +39,7 @@
 - [Finding overflow issues](debugging/finding-overflow-issues.md)
 - [Inspect disappearing elements](debugging/inspect-disappear-elements.md)
 - [Using logpoints](debugging/logpoints.md)
+- [React Testing Library Tips](debugging/react-testing-library.md)
 
 ## GIT
 
@@ -40,8 +51,13 @@
 ## HTML
 
 - [Autofocus input field](html/autofocus.md)
+- [Automatic capture from device camera](html/auto-capture-device-camera.md)
 - [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
 - [Lazy loading images](html/img-lazy-loading.md)
+- [Image poster for videos](html/image-poster-videos.md)
+- [Force download file](html/force-download-file.md)
+- [Disable text translate](html/disable-text-translate.md)
+- [Basic link tracking](html/basic-link-tracking.md)
 
 ## JavaScript
 
@@ -64,11 +80,18 @@
 
 - [Check if number is even or odd](javascript/even-odd.md)
 - [Check if object is empty](javascript/check-object-empty.md)
+- [Concatenate arrays](javascript/concatenate-arrays.md)
 - [Convert Maps and Sets to object](javascript/convert-map-sets-to-object.md)
 - [Create custom error](javascript/custom-errors.md)
+- [Min, max value from array](javascript/min-max-array.md)
 - [Native deep copy](javascript/native-deep-copy.md)
+- [Native unique id](javascript/native-unique-id.md)
 - [Randomize array](javascript/randomize-array.md)
+- [Regex capture groups](javascript/regex-capture-groups.md)
 - [Replace values in array by index using splice](javascript/replace-with-splice.md)
+- [Smooth scrolling](javascript/smoot-scrolling.md)
+- [Sorting strings](javascript/sorting-strings.md)
+- [Split string by X characters](javascript/split-by-x-ch.md)
 
 ## MongoDB
 
@@ -95,6 +118,11 @@
 - [setState methods type](react/set-state-type.md)
 - [Typing props with children](react/typing-props-with-children.md)
 - [Typing refs](react/typing-refs.md)
+
+#### Snippets
+
+- [Generic component props](react/generic-props.md)
+- [Head metadata management](react/head-metadata.md)
 
 
 ## Testing

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript array sort / localeCompare</title>
+  </head>
+  <body>
+    <button id="regular">Regular sort</button>
+    <button id="localeCompare">Locale compare sort</button>
+    <pre id="output"></pre>
+    <script type="text/javascript">
+      const regularButton = document.querySelector("#regular");
+      const localeCompareButton = document.querySelector("#localeCompare");
+      const outputElement = document.querySelector("#output");
+
+      const list = ["abażur", "Abażur", "łąk", "lak", "ziemniak"];
+
+      function process(method) {
+        const sorted = [...list];
+        sorted.sort(method);
+
+        output.innerHTML = JSON.stringify(sorted, null, 4);
+      }
+
+      regularButton.addEventListener("click", () => {
+        process(undefined);
+      });
+
+      localeCompareButton.addEventListener("click", () => {
+        process((a, b) => a.localeCompare(b));
+      });
+    </script>
+  </body>
+</html>
