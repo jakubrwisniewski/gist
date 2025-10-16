@@ -70,6 +70,7 @@
 - [Intl.PluralRules](javascript/intl-plural-rules.md)
 - [Object](javascript/object.md)
 - [Promise](javascript/promise.md)
+- [ResizeObserver](javascript/resize-observer.md)
 - [Set](javascript/set.md)
 - [Spread Operator](javascript/spread-operator.md)
 - [String](javascript/string.md)
@@ -92,6 +93,12 @@
 - [Smooth scrolling](javascript/smoot-scrolling.md)
 - [Sorting strings](javascript/sorting-strings.md)
 - [Split string by X characters](javascript/split-by-x-ch.md)
+
+#### Utilities
+
+- [isLeapYear](javascript/utils/isLeapYear.md)
+- [isObjectEmpty](javascript/utils/isObjectEmpty.md)
+- [Plural Rules](javascript/utils/PluralRules.md)
 
 ## MongoDB
 
@@ -162,9 +169,6 @@
 
 ## Utilities
 
-- [isLeapYear](utilities/isLeapYear.md)
-- [isObjectEmpty](utilities/isObjectEmpty.md)
-- [Plural Rules](utilities/PluralRules.md)
 
 
 ## Validation
