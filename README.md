@@ -15,6 +15,7 @@
 
 - [Animate height](css/animate-height.md)
 - [Animation starting style](css/animation-starting-style.md)
+- [Attribute selectors](css/attribute-selectors.md)
 - [Change selection color](css/change-text-selection-color.md)
 - [Disable link](css/disable-link.md)
 - [Disable text selection](css/disable-text-selection.md)
