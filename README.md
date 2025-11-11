@@ -152,6 +152,7 @@
 - [Find type for element ref](typescript/find-type-element-ref.md)
 - [Function Type Guards](typescript/function-type-guards.md)
 - [Handle errors better](typescript/handle-errors.md)
+- [Helper types](typescript/helper-types.md)
 - [Loose Autocomplete](typescript/loose-autocomplete.md)
 - [Mapping over properties](typescript/mapping-over-properties.md)
 - [Satisfies](typescript/satisfies.md)
