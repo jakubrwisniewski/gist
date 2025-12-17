@@ -131,6 +131,7 @@
 
 - [Generic component props](react/generic-props.md)
 - [Head metadata management](react/head-metadata.md)
+- [Polymorphic components](react/polymorphic.md)
 
 
 ## Testing
