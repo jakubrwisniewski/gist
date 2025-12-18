@@ -1,6 +1,6 @@
 # Polymorphic components
 
-```ts
+```tsx
 type PolyProps<C extends React.ElementType> = {
 	component?: C;
 	children?: React.ReactNode;
@@ -8,6 +8,6 @@ type PolyProps<C extends React.ElementType> = {
 
 function Poly<C extends React.ElementType>(props: PolyProps<C>) {
 	const Component = props?.component || "div";
-	return <Component {...props} />;
+	return <Component {...props}>{props.children}</Component>
 }
 ```
