@@ -126,6 +126,7 @@
 - [setState methods type](react/set-state-type.md)
 - [Typing props with children](react/typing-props-with-children.md)
 - [Typing refs](react/typing-refs.md)
+- [useEffectEvent](react/use-effect-event.md)
 
 #### Snippets
 
