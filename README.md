@@ -48,7 +48,6 @@
 - [Stash](git/stash.md)
 - [Tips](git/tips.md)
 
-
 ## HTML
 
 - [Autofocus input field](html/autofocus.md)
@@ -109,6 +108,12 @@
 - [Rename property](mongodb/rename-property.md)
 - [SQL like query](mongodb/sql-like-query.md)
 
+## Node
+
+#### API
+
+- [node:timers](node/timers.md)
+
 ## React
 
 #### Custom hooks
@@ -135,7 +140,6 @@
 - [Head metadata management](react/head-metadata.md)
 - [Polymorphic components](react/polymorphic.md)
 
-
 ## Testing
 
 - [Collect coverage for single file](testing/collect-coverage.md)
@@ -147,7 +151,6 @@
 - [Mock static properties](testing/mock-static-properties.md)
 - [React testing library](testing/react-testing-library-tips.md)
 - [React testing library Submit Form](testing/react-testing-library-submit-form.md)
-
 
 ## Typescript
 
@@ -171,14 +174,10 @@
 - [NestValues](typescript/nested-values.md)
 - [OneOf](typescript/one-of.md)
 
-
 ## Utilities
-
-
 
 ## Validation
 
 - [Date validation](validation/date-validation.md)
 - [Url validation](validation/url-validation.md)
 - [yup](validation/yup.md)
-
