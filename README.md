@@ -140,6 +140,10 @@
 - [Head metadata management](react/head-metadata.md)
 - [Polymorphic components](react/polymorphic.md)
 
+## Tailwind
+
+- [Cheat Sheet](tailwind/cheatsheet.md)
+
 ## Testing
 
 - [Collect coverage for single file](testing/collect-coverage.md)

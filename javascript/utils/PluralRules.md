@@ -29,6 +29,3 @@ class PluralRules {
 
 export default PluralRules;
 ```
-
-
-### Nat
