@@ -185,3 +185,11 @@
 - [Date validation](validation/date-validation.md)
 - [Url validation](validation/url-validation.md)
 - [yup](validation/yup.md)
+
+# Visual Studio Code
+
+- [Settings](vscode/settings.json)
+- [Key bindings](vscode/keybindings.json)
+- [Snippets](vscode/snippets.json)
+- [Tasks](vscode/tasks.json)
+- [Example launch](vscode/launch.json)

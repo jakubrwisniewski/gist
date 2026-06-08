@@ -1,0 +1,46 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "debug cash:client",
+			"request": "launch",
+			"type": "chrome",
+			"url": "http://localhost:3001",
+			"webRoot": "${workspaceFolder}/apps/cash",
+			"userDataDir": "c:/Users/jakub/AppData/Roaming/Code/User/workspaceStorage/3f5b009cdc8fd09e8d8cf73069260b68/ms-vscode.js-debug/.profile"
+		},
+		{
+			"name": "debug cash:server",
+			"port": 9232,
+			"request": "attach",
+			"skipFiles": ["<node_internals>/**"],
+			"type": "node"
+		},
+		{
+			"name": "debug friday:client",
+			"request": "launch",
+			"type": "chrome",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceFolder}/apps/friday",
+			"userDataDir": "c:/Users/jakub/AppData/Roaming/Code/User/workspaceStorage/3f5b009cdc8fd09e8d8cf73069260b68/ms-vscode.js-debug/.profile"
+		},
+		{
+			"name": "debug friday:server",
+			"port": 9230,
+			"request": "attach",
+			"skipFiles": ["<node_internals>/**"],
+			"type": "node"
+		},
+		{
+			"name": "debug packages:ui",
+			"request": "launch",
+			"type": "chrome",
+			"url": "http://localhost:5173",
+			"webRoot": "${workspaceFolder}/packages/ui",
+			"userDataDir": "c:/Users/jakub/AppData/Roaming/Code/User/workspaceStorage/3f5b009cdc8fd09e8d8cf73069260b68/ms-vscode.js-debug/.profile"
+		},
+	]
+}

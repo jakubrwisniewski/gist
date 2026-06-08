@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Single File Coverage",
+      "type": "shell",
+      "command": "npm test ${command:extension.commandvariable.file.relativeFileDirnamePosix}/${fileBasenameNoExtension} -- -- --coverage --collectCoverageFrom=${command:extension.commandvariable.file.relativeFilePosix}",
+    },
+    {
+      "label": "File Directory Coverage",
+      "type": "shell",
+      "command": "npm test ${command:extension.commandvariable.file.relativeFileDirnamePosix}/${fileBasenameNoExtension} -- -- --coverage --collectCoverageFrom=${command:extension.commandvariable.file.relativeFileDirnamePosix}/*",
+    },
+  ],
+}

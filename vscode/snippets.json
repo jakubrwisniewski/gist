@@ -1,0 +1,88 @@
+{
+	"expect().toHaveBeenCalled()": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cld",
+		"body": [
+			"expect($1).toHaveBeenCalled();"
+		]
+	},
+	"expect().not.toHaveBeenCalled()": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "ncld",
+		"body": [
+			"expect($1).not.toHaveBeenCalled();"
+		]
+	},
+	"expect().toHaveBeenCalledWith()": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cldw",
+		"body": [
+			"expect($1).toHaveBeenCalledWith($2);"
+		]
+	},
+	"expect().toHaveBeenCalledTimes($2)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cldt",
+		"body": [
+			"expect($1).toHaveBeenCalledTimes($2);"
+		]
+	},
+	"expect().toHaveBeenCalledOnce()": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cldo",
+		"body": [
+			"expect($1).toHaveBeenCalledOnce();"
+		]
+	},
+	"describe()": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "desc",
+		"body": [
+			"describe(\"$1\", () => {",
+			"\t$2",
+			"});"
+		]
+	},
+	"expect(screen.queryByText('$1')).toBeInTheDocument": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "indoc",
+		"body": [
+			"expect(screen.queryByText(\"$1\")).toBeInTheDocument();"
+		]
+	},
+	"expect(screen.queryByText('$1')).not.toBeInTheDocument": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "nindoc",
+		"body": [
+			"expect(screen.queryByText(\"$1\")).not.toBeInTheDocument();"
+		]
+	},
+	"expect(screen.getByText('$1')).toHaveTextContent('$2');": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "tcn",
+		"body": [
+			"expect(screen.getByText(\"$1\")).toHaveTextContent(\"$2\");"
+		]
+	},
+	"expect(screen.getByText('$1')).not.toHaveTextContent('$2');": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "ntcn",
+		"body": [
+			"expect(screen.getByText(\"$1\")).not.toHaveTextContent(\"$2\");"
+		]
+	},
+	"expect($1).toEqual($2)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "eq",
+		"body": [
+			"expect($1).toEqual($2);"
+		]
+	},
+	"expect($1).not.toEqual($2)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "neq",
+		"body": [
+			"expect($1).not.toEqual($2);"
+		]
+	}
+}

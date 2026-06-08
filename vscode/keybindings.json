@@ -1,0 +1,79 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+g",
+    "command": "git.checkout",
+  },
+  {
+    "key": "ctrl+m ctrl+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "workbench.action.files.saveFiles",
+  },
+  {
+    "key": "ctrl+shift+alt+right",
+    "command": "workbench.action.moveEditorToRightGroup",
+  },
+  {
+    "key": "ctrl+shift+alt+left",
+    "command": "workbench.action.moveEditorToLeftGroup",
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "workbench.action.moveEditorToAboveGroup",
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "workbench.action.moveEditorToBelowGroup",
+  },
+  {
+    "key": "alt+/",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Single File Coverage",
+  },
+  {
+    "key": "shift+alt+/",
+    "command": "workbench.action.tasks.runTask",
+    "args": "File Directory Coverage",
+  },
+  {
+    "key": "ctrl+alt+oem_2",
+    "command": "extension.createTestFile",
+  },
+  {
+    "key": "alt+right",
+    "command": "cursorWordPartRight",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorWordPartLeft",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+shift+right",
+    "command": "cursorWordPartRightSelect",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+shift+left",
+    "command": "cursorWordPartLeftSelect",
+    "when": "textInputFocus",
+  },
+  {
+    "key": "alt+q",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+  },
+  {
+    "key": "ctrl+oem_7",
+    "command": "-cline.addToChat",
+    "when": "editorHasSelection",
+  },
+  {
+    "key": "ctrl+oem_7",
+    "command": "-cline.focusChatInput",
+    "when": "!editorHasSelection",
+  },
+]
