@@ -15,7 +15,6 @@ Delete cookie
 
 ```js
 cookieStore.delete('theme');
-}
 ```
 
 Listen to changes

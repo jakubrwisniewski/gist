@@ -10,4 +10,4 @@
 
 As of 10.10.2025, my testing on latest Android Chrome shows both captures modes use rear camera. Doesn't work on desktop browser.
 
-[Preview](preview/auto-capture-device-camera)
+[Preview](preview/auto-capture-device-camera.html)

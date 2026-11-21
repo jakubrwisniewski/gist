@@ -2,13 +2,13 @@
 
 ## Code quality
 
-- [Depracated methods](code-quality/depracated-methods.md)
+- [Deprecated methods](code-quality/deprecated-methods.md)
 
 ## CSS
 
 #### API
 
-- [:focus-within](css/focuse-within.md)
+- [:focus-within](css/focus-within.md)
 - [:is pseudoselector](css/is.md)
 
 #### Snippets
@@ -16,20 +16,22 @@
 - [Animate height](css/animate-height.md)
 - [Animation starting style](css/animation-starting-style.md)
 - [Attribute selectors](css/attribute-selectors.md)
+- [Center element](css/center-element.md)
 - [Change selection color](css/change-text-selection-color.md)
 - [Disable link](css/disable-link.md)
 - [Disable text selection](css/disable-text-selection.md)
+- [Display text in columns](css/display-text-in-columns.md)
 - [Dynamically display input size](css/dynamically-display-input-size.md)
 - [Fit element to it’s content](css/fit-element-to-content.md)
 - [Flex shorthand property](css/flex-shorthand.md)
-- [Headng pseudo-selectors](css/heading.md)
+- [Heading pseudo-selectors](css/heading.md)
 - [HSL relative colors](css/hsl-relative-colors.md)
 - [Margin and padding inline and block properties](css/margin-padding-inline-block.md)
 - [Media Queries](css/media-queries.md)
 - [Min and Max properties](css/min-max-properties.md)
 - [Multiline text without \<br\>](css/multiline-text-without-br.md)
 - [Overflow](css/overflow.md)
-- [Selecting siblings](css/selectin-siblings.md)
+- [Selecting siblings](css/selecting-siblings.md)
 - [Text wrapping](css/text-wrapping.md)
 - [Underline offset](css/underline-offset.md)
 
@@ -52,12 +54,13 @@
 
 - [Autofocus input field](html/autofocus.md)
 - [Automatic capture from device camera](html/auto-capture-device-camera.md)
-- [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
-- [Lazy loading images](html/img-lazy-loading.md)
-- [Image poster for videos](html/image-poster-videos.md)
-- [Force download file](html/force-download-file.md)
-- [Disable text translate](html/disable-text-translate.md)
 - [Basic link tracking](html/basic-link-tracking.md)
+- [Chrome edge-to-edge UI](html/chrome-edge-to-edge.md)
+- [Colorize browser top bar](html/colorize-chrome-topbar.md)
+- [Disable text translate](html/disable-text-translate.md)
+- [Force download file](html/force-download-file.md)
+- [Image poster for videos](html/image-poster-videos.md)
+- [Lazy loading images](html/img-lazy-loading.md)
 
 ## JavaScript
 
@@ -67,6 +70,7 @@
 - [Array](javascript/array.md)
 - [BroadcastChannel](javascript/broadcast-channel.md)
 - [Cookie Store](javascript/cookie-store.md)
+- [Intl.Collator](javascript/intl-collator.md)
 - [Intl.PluralRules](javascript/intl-plural-rules.md)
 - [Object](javascript/object.md)
 - [Promise](javascript/promise.md)
@@ -90,7 +94,7 @@
 - [Randomize array](javascript/randomize-array.md)
 - [Regex capture groups](javascript/regex-capture-groups.md)
 - [Replace values in array by index using splice](javascript/replace-with-splice.md)
-- [Smooth scrolling](javascript/smoot-scrolling.md)
+- [Smooth scrolling](javascript/smooth-scrolling.md)
 - [Sorting strings](javascript/sorting-strings.md)
 - [Split string by X characters](javascript/split-by-x-ch.md)
 
@@ -125,7 +129,7 @@
 
 #### API
 
-- [ComponentProps](react/component-propss.md)
+- [ComponentProps](react/component-props.md)
 - [ComponentType](react/component-type.md)
 - [forwardRef](react/forward-refs.md)
 - [setState methods type](react/set-state-type.md)
@@ -135,7 +139,7 @@
 
 #### Snippets
 
-- [Compound components](react/com)
+- [Compound components](react/compound-components.md)
 - [Generic component props](react/generic-props.md)
 - [Head metadata management](react/head-metadata.md)
 - [Polymorphic components](react/polymorphic.md)
@@ -150,7 +154,7 @@
 - [Expect anything](testing/expect-anything.md)
 - [Expect one property from object](testing/expect-one-property-from-object.md)
 - [Express](testing/express.md)
-- [Mock classses](testing/mock-classes.md)
+- [Mock classes](testing/mock-classes.md)
 - [Mock mixed imports](testing/mock-mixed-imports.md)
 - [Mock static properties](testing/mock-static-properties.md)
 - [React testing library](testing/react-testing-library-tips.md)
@@ -172,13 +176,11 @@
 - [Using](typescript/using.md)
 - [Utility types](typescript/utility-types.md)
 
-#### Customn types
+#### Custom types
 
 - [NestedKeys and NestedPaths](typescript/nested-keys.md)
 - [NestValues](typescript/nested-values.md)
 - [OneOf](typescript/one-of.md)
-
-## Utilities
 
 ## Validation
 
@@ -186,7 +188,7 @@
 - [Url validation](validation/url-validation.md)
 - [yup](validation/yup.md)
 
-# Visual Studio Code
+## Visual Studio Code
 
 - [Settings](vscode/settings.json)
 - [Key bindings](vscode/keybindings.json)

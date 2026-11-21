@@ -1,16 +1,20 @@
 # Document Metadata Management
 
-As of React 19 we can do as the following, to setup head metadata tags in a convienient way
+In React 19, you can render `<title>`, `<meta>`, and `<link>` elements directly anywhere inside your components without any wrapper components or third-party libraries (like React Helmet).
 
-```js
-import { DocumentHead } from 'react';
+React automatically hoists these tags to the document `<head>` and manages deduplication based on rules (such as matching `name` or `property`).
 
-function SEOPage() {
+```jsx
+function BlogPost({ post }) {
   return (
-    <DocumentHead>
-      <title>Custom Title - React 19</title>
-      <meta name="description" content="Learn about the new features of React 19." />
-    </DocumentHead>
+    <article>
+      <title>{post.title}</title>
+      <meta name="description" content={post.summary} />
+      <link rel="canonical" href={post.url} />
+
+      <h1>{post.title}</h1>
+      <p>{post.content}</p>
+    </article>
   );
 }
 ```

@@ -54,7 +54,7 @@ useEffect(() => {
 ### Cancel fetch requests
 
 ```js
-function uploadFile(file: File) {
+function uploadFile(file) {
   const controller = new AbortController();
 
   // Provide the abort signal to this fetch request
